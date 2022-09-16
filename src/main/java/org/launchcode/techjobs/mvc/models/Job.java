@@ -49,7 +49,7 @@ public class Job {
             positionType.setValue("Data not available");
         }
 
-        output = String.format("\nID: %d\n" +
+        output = String.format("\nID: %d\n" + //i thought String.format can only generate two values?
                 "Name: %s\n" +
                 "Employer: %s\n" +
                 "Location: %s\n" +
